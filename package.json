@@ -1,0 +1,20 @@
+{
+  "name": "solitaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "scss": "node-sass --output-style compressed -o css scss",
+    "watch:css": "onchange 'scss/*.scss' -- npm run scss"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.10.0",
+    "jest": "^27.5.1",
+    "node-sass": "^7.0.1",
+    "onchange": "^7.1.0"
+  }
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="top-row">
+        <section class="done-stacks">
+            <article class="done-stacks__clubs">
+                <ul class="done-list done-list--clubs" data-suit="club" data-position="1"></ul>
+            </article>
+            <article class="done-stacks__spades">
+                <ul class="done-list done-list--spades" data-suit="spade" data-position="2"></ul>
+            </article>
+            <article class="done-stacks__diamonds">
+                <ul class="done-list done-list--diamonds" data-suit="diamond" data-position="3"></ul>
+            </article>
+            <article class="done-stacks__harts">
+                <ul class="done-list done-list--harts" data-suit="hart" data-position="4"></ul>
+            </article>
+        </section>
+        <section class="remaining">
+            <ul class="remaining__list -js-remaining-show" data-position="5"></ul>
+            <ul class="remaining__list -js-remaining-hide" data-position="6"></ul>
+        </section>
+    </div>
+    <section class="starting-cols">
+        <article class="starting-cols__item">
+            <ul class="main-stacks" data-col="1" data-position="7">
+            </ul>
+        </article>
+        <article class="starting-cols__item">
+            <ul class="main-stacks" data-col="2" data-position="8">
+            </ul>
+        </article>
+        <article class="starting-cols__item">
+            <ul class="main-stacks" data-col="3" data-position="9">
+            </ul>
+        </article>
+        <article class="starting-cols__item" >
+            <ul class="main-stacks" data-col="4" data-position="10">
+            </ul>
+        </article>
+        <article class="starting-cols__item">
+            <ul class="main-stacks" data-col="5" data-position="11">
+            </ul>
+        </article>
+        <article class="starting-cols__item">
+            <ul class="main-stacks" data-col="6" data-position="12">
+            </ul>
+        </article>
+        <article class="starting-cols__item">
+            <ul class="main-stacks" data-col="7" data-position="13">
+            </ul>
+        </article>
+    </section>
+
+    <section class="undo">
+        <button class="undo__btn -js-undo-btn">Undo</button>
+        <button class="undo__btn -js-redo-btn">Redo</button>
+    </section>
+    
+    <script type="module" src="main.js"></script>
+</body>
+</html>
